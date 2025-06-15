@@ -1,0 +1,1 @@
+import { cognitoCredentialsProvider } from "aws-amplify/auth/cognito";
