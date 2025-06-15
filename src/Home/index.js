@@ -8,7 +8,7 @@ export default function Home() {
 
   const signOutRedirect = () => {
     const clientId = "5670nqpbc3pj9t1g9g5b23aj7a";
-    const logoutUri = "<logout uri>";
+    const logoutUri = "https://main.d24v52d6vjpw0i.amplifyapp.com/";
     const cognitoDomain =
       "https://us-east-1lbik47yti.auth.us-east-1.amazoncognito.com";
     window.location.href = `${cognitoDomain}/logout?client_id=${clientId}&logout_uri=${encodeURIComponent(
