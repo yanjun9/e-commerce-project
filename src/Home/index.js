@@ -40,6 +40,7 @@ export default function Home() {
   return (
     <div>
       <button onClick={() => auth.signinRedirect()}>Sign in</button>
+      <button onClick={() => signOutRedirect()}>Sign out</button>
     </div>
   );
 }
